@@ -1,0 +1,48 @@
+
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+
+// тестовые стили, удалите их
+.page__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--vh);
+  background-color: black;
+  background-image: url("../img/Component\ 12.png");
+  font-family: 'Prompt';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+.header {
+}
+.container {
+}
+.header__menu {
+  display: flex;
+}
+.header__logo {
+}
+.header__nav {
+}
+.header__list {
+}
+.header__item {
+}
+.header__button {
+}
+.header__btn {
+}
